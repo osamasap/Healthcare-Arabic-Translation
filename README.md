@@ -1,33 +1,27 @@
-### Marley Healthcare Arabic
+# Healthcare Arabic Translation
 
-Arabic translation for Marley Healthcare (Frappe v16)
+Arabic translation for the Healthcare module (Marley Healthcare) on ERPNext /
+Frappe v16.
 
-### Installation
+**Made for the Egyptian and Arab market.**
 
-You can install this app using the [bench](https://github.com/frappe/bench) CLI:
+Made by Osama (osamasap).
 
-```bash
-cd $PATH_TO_YOUR_BENCH
-bench get-app $URL_OF_THIS_REPO --branch version-16
-bench install-app marley_healthcare_ar
-```
+## What it covers
 
-### Contributing
+2,124 Arabic translations for the Healthcare module (`marley_healthcare_ar`,
+locale `ar.po`).
 
-This app uses `pre-commit` for code formatting and linting. Please [install pre-commit](https://pre-commit.com/#installation) and enable it for this repository:
+## Install
 
 ```bash
-cd apps/marley_healthcare_ar
-pre-commit install
+bench get-app https://github.com/osamasap/Healthcare-Arabic-Translation --branch main
+bench --site <your-site> install-app marley_healthcare_ar
 ```
 
-Pre-commit is configured to use the following tools for checking and formatting your code:
+Then set the user's language to Arabic (My Settings → Language) to see the
+Arabic interface.
 
-- ruff
-- eslint
-- prettier
-- pyupgrade
+## License
 
-### License
-
-mit
+MIT

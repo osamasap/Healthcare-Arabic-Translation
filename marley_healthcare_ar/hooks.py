@@ -1,5 +1,5 @@
 app_name = "marley_healthcare_ar"
-app_title = "Marley Healthcare Arabic"
+app_title = "Healthcare Arabic Translation"
 app_publisher = "IMO"
 app_description = "Arabic translation for Marley Healthcare (Frappe v16)"
 app_email = "IMO@Itceg.net"
